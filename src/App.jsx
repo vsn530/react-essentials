@@ -9,6 +9,7 @@ import { UserStatus } from "./UserStatus";
 function App() {
   return (
     <div className="center">
+      <h1>This is deployed to AWS using github actions</h1>
       <UserStatus name="Srinivas" isOnline={true} />
       <UserStatus name="Kaushal" isOnline={false} />
       {/* <UserProfile>
